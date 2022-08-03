@@ -12,10 +12,10 @@ a{
     text-decoration: none;
 }
 /* Site contact info*/
-.auth-nav a{
+.contact-info a{
     color: #757575;
 }
-nav, .auth-nav a:hover, a:focus, a:active {
+nav, .contact-info a:hover, a:focus, a:active {
     color:#2196F3;
 }
 /*Filter buttons*/
