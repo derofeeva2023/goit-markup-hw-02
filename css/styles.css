@@ -18,6 +18,7 @@ body{
     color: var(--main-font-color);
     letter-spacing: 0.03;
 }
+
 .visually-hidden {
     position: absolute;
       white-space: nowrap;
@@ -59,6 +60,9 @@ letter-spacing: 0.02em;
 color: var(--secondary-font-color);
 
 }
+.top-menu a{
+color: var(--secondary-font-color);
+}
 .top-menu a:hover, a:focus {
     color:var(--accent-color);
 }
@@ -84,6 +88,9 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color:var(--main-light-color);
 background-color: var(--title-background-color);
+padding-top: 200px;
+
+
 }
 
 .service-button{
@@ -101,6 +108,10 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color:var(--main-light-color);
+/*button center*/
+margin: 0 auto;
+display: block; 
+margin-top: 30px;
 }
 .service-button button:hover, button:focus{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -122,6 +133,15 @@ line-height: 1.7;
 letter-spacing: 0.03em;
 color:var(--main-font-color);
 }
+.attention li{
+    display:inline-block;
+    width: 270;
+    padding:30px;
+    margin-top: 94px;
+    vertical-align: text-top;
+}
+
+
 /*what we do & team titles*/
 .work-title{
     font-weight: 700;
@@ -156,8 +176,13 @@ letter-spacing: 0.03em;
 color:var(--main-light-color);
 
 }
-.section-background{
+.section-background, .hero-block{
 background-color: var(--title-background-color);
+}
+.hero-block{
+    height: 600px;
+left: 0px;
+top: 80px;
 }
 /*Portfolio*/
 .section-title{
