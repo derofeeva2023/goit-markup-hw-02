@@ -198,6 +198,9 @@ letter-spacing: 0.03em;
 color:var(--main-light-color);
 
 }
+.address-text{
+font-style: normal;
+}
 .section-background, .hero-block{
 background-color: var(--title-background-color);
 }
@@ -205,6 +208,10 @@ background-color: var(--title-background-color);
     height: 600px;
 left: 0px;
 top: 80px;
+}
+.logo-alignment{
+    padding-left: 35px;
+    padding-top: 60px;
 }
 /*Portfolio*/
 .section-title{
