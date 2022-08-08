@@ -136,13 +136,13 @@ line-height: 1.7;
 letter-spacing: 0.03em;
 color:var(--main-font-color);
 }
-.attention li{
+/*attention li{
     display:inline-block;
     width: 270;
     padding:30px;
     margin-top: 94px;
     vertical-align: text-top;
-}
+}*/
 
 
 /*what we do & team titles*/
@@ -160,7 +160,7 @@ padding-top: 94px;
 font-size: 16px;
 letter-spacing: 0.03em;
 color: var(--secondary-font-color);
-text-align: center;
+/*text-align: center;*/
 }
 .name-profession{
     font-weight: 400;
@@ -168,12 +168,12 @@ text-align: center;
     line-height:1.1;
     letter-spacing: 0.03em;
     color: var(--main-font-color);
-    text-align: center;
+    /*text-align: center;*/
 }
 .team-bg-color{
   background-color: var(--team-background-color);  
 }
-.work-alignment li{
+/*work-alignment li{
     display:inline-block;
     width: 370px;
     height: 294px;
@@ -181,8 +181,8 @@ text-align: center;
    padding-left:30px;
    margin-bottom: 94px;
     
-}
-.team-alignment li{
+}*/
+/*team-alignment li{
     display:inline-block;
     width: 270px;
     height: 368px;
@@ -190,7 +190,7 @@ text-align: center;
    padding-left:20px;
    margin-bottom: 94px;
     
-}
+}*/
 /*footer*/
 .map{
 font-weight: 400;
